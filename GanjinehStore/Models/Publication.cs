@@ -12,9 +12,9 @@ namespace GanjinehStore.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public int PhoneNumber { get; set; }
-        public int Fax { get; set; }
-        public int Mobile { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Fax { get; set; }
+        public string Mobile { get; set; }
         public DateTime RegisterDate { get; set; }
         public ICollection<Book> books { get; set; }
     }
