@@ -33,6 +33,7 @@ namespace GanjinehStore
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseStaticFiles();
 
             app.UseRouting();
