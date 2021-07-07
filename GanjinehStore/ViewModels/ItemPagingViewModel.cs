@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace GanjinehStore.ViewModels
 {
-    public class BookPagingViewModel
+    public class ItemPagingViewModel<T> where T : class
     {
-        public List<Book> Books { get; set; }
+        public List<T> Items { get; set; }
         public int PageNumber { get; set; }
-        public int PageCount { get; set; }
+        public int PagesCount { get; set; }
     }
 }
